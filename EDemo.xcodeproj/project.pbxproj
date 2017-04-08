@@ -8,20 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		0CFCA0C71E987B4200413E4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CFCA0C61E987B4200413E4A /* AppDelegate.swift */; };
-		0CFCA0C91E987B4200413E4A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CFCA0C81E987B4200413E4A /* ViewController.swift */; };
+		0CFCA0C91E987B4200413E4A /* PickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CFCA0C81E987B4200413E4A /* PickerViewController.swift */; };
 		0CFCA0CC1E987B4300413E4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CFCA0CA1E987B4300413E4A /* Main.storyboard */; };
 		0CFCA0CE1E987B4300413E4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CFCA0CD1E987B4300413E4A /* Assets.xcassets */; };
 		0CFCA0D11E987B4300413E4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CFCA0CF1E987B4300413E4A /* LaunchScreen.storyboard */; };
+		0CFCA0D91E98865700413E4A /* SwitchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CFCA0D81E98865700413E4A /* SwitchViewController.swift */; };
+		0CFCA0DB1E988DBF00413E4A /* SliderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CFCA0DA1E988DBF00413E4A /* SliderViewController.swift */; };
+		0CFCA0DD1E9893A300413E4A /* ButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CFCA0DC1E9893A300413E4A /* ButtonViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0CFCA0C31E987B4200413E4A /* EDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CFCA0C61E987B4200413E4A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0CFCA0C81E987B4200413E4A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0CFCA0C81E987B4200413E4A /* PickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewController.swift; sourceTree = "<group>"; };
 		0CFCA0CB1E987B4300413E4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0CFCA0CD1E987B4300413E4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0CFCA0D01E987B4300413E4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0CFCA0D21E987B4300413E4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CFCA0D81E98865700413E4A /* SwitchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwitchViewController.swift; sourceTree = "<group>"; };
+		0CFCA0DA1E988DBF00413E4A /* SliderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SliderViewController.swift; sourceTree = "<group>"; };
+		0CFCA0DC1E9893A300413E4A /* ButtonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +61,10 @@
 			isa = PBXGroup;
 			children = (
 				0CFCA0C61E987B4200413E4A /* AppDelegate.swift */,
-				0CFCA0C81E987B4200413E4A /* ViewController.swift */,
+				0CFCA0C81E987B4200413E4A /* PickerViewController.swift */,
+				0CFCA0D81E98865700413E4A /* SwitchViewController.swift */,
+				0CFCA0DA1E988DBF00413E4A /* SliderViewController.swift */,
+				0CFCA0DC1E9893A300413E4A /* ButtonViewController.swift */,
 				0CFCA0CA1E987B4300413E4A /* Main.storyboard */,
 				0CFCA0CD1E987B4300413E4A /* Assets.xcassets */,
 				0CFCA0CF1E987B4300413E4A /* LaunchScreen.storyboard */,
@@ -137,8 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0CFCA0C91E987B4200413E4A /* ViewController.swift in Sources */,
+				0CFCA0D91E98865700413E4A /* SwitchViewController.swift in Sources */,
+				0CFCA0C91E987B4200413E4A /* PickerViewController.swift in Sources */,
 				0CFCA0C71E987B4200413E4A /* AppDelegate.swift in Sources */,
+				0CFCA0DD1E9893A300413E4A /* ButtonViewController.swift in Sources */,
+				0CFCA0DB1E988DBF00413E4A /* SliderViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
